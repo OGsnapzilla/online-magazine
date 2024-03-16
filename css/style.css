@@ -24,10 +24,17 @@ nav li a {
     text-decoration: none;
     color: #51443d;
     font-size: 1.1em;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+nav li a:hover {
+    opacity: 1;
 }
 
 .active {
     font-weight: bold;
+    opacity: 1;
 }
 
 /*DROPDOWN NAVIGATION*/
@@ -57,12 +64,10 @@ nav li a {
     display: block;
 }
 
-/* Change color of dropdown links on hover */
 .dropdownContent a:hover {
     background-color: #ebf5eb;
 }
 
-/* Show the dropdown content when hovering over the dropdown button */
 .dropdown:hover .dropdownContent {
     display: block;
 }
