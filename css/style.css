@@ -2,6 +2,7 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
 html, body {
     height: 100%;
     margin: 0%;
@@ -74,13 +75,18 @@ nav li a:hover {
 }
 
 /*-----FORSIDE STYLE-----*/
-.indexPhoto {
-    width: 100px;
+.bgImage {
+    max-width: 100%;
+    height: auto;
 }
 
 .homepageArticle{
-    margin: 10%;
+    margin: 5%;
     text-align: center;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
 }
 
 .homepageArticle h1 {
@@ -99,6 +105,15 @@ nav li a:hover {
 
 article p {
     color: #51443d;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 /*-----HVAD ER TE? STYLE-----*/
@@ -128,13 +143,40 @@ body {
 }
 
 .tesorterArticles {
-    margin-left: 17%;
-    margin-right: 17%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .tesorterArticles h1 {
     font-weight: 350;
+    font-size: 2.5em;
+    padding-top: 5%;
 }
+
+#sortTeImg {
+    width: 30%;
+    float: left;
+    margin-right: 10px;
+}
+
+#groenTeImg {
+    width: 30%;
+    float: right;
+    margin-left: 10px;
+}
+
+#oolongTeImg {
+    width: 30%;
+    float: left;
+    margin-right: 10px;
+}
+
+#urteTeImg {
+    width: 30%;
+    float: right;
+    margin-left: 10px;
+}
+
 
 /*-----DIT FORMAAL STYLE-----*/
 body {
