@@ -9,17 +9,63 @@
 </head>
 <body>
     
-    <!--NAVIGATION-->
     <nav class="navigation">
         <ul class="navList">
             <li><a href="index.html">FORSIDE</a></li>
             <li><a href="hvad-er-te.html" class="active">HVAD ER TE?</a></li>
-            <li><a href="tesorter.html">TESORTER</a></li>
-            <li><a href="formaal.html">DIT FORMÅL</a></li>
-            <li><a href="#">TE VERDENEN RUNDT</a></li>
-            <li><a href="#">OPSKRIFTER</a></li>
+            <!--TESORTER DROPDOWN-->
+            <li class="dropdown">
+             <a href="tesorter.html" class="dropbtn">TESORTER</a>
+              <nav class="dropdownContent">
+                <a href="tesorter.html">SORT TE</a>
+                <a href="tesorter.html">GRØN TE</a>
+                <a href="tesorter.html">OOLONG</a>
+                <a href="tesorter.html">URTE TE</a>
+              </nav>
+            </li>
+            
+            <!--FORMAAL DROPDOWN-->
+            <li class="dropdown">
+             <a href="formaal.html" class="dropbtn">DIT FORMÅL</a>
+              <nav class="dropdownContent">
+                <a href="formaal.html">AFSLAPNING</a>
+                <a href="formaal.html">ENERGI</a>
+                <a href="formaal.html">FOKUS</a>
+                <a href="formaal.html">MAVEBALANCE</a>
+              </nav>
+            </li>
+            <li class="dropdown">
+             <a href="#" class="dropbtn">TE VERDENEN RUNDT</a>
+              <nav class="dropdownContent">
+                <a href="#">TE I KULTURER</a>
+                <a href="#">TÉENS GEOGRAFI</a>
+              </nav>
+            </li>
+            <!--OPSKRIFTER DROPDOWN-->
+            <li class="dropdown">
+             <a href="#" class="dropbtn">OPSKRIFTER</a>
+              <nav class="dropdownContent">
+                <a href="#">DRIKKE</a>
+                <a href="#">MAD</a>
+              </nav>
+            </li>
         </ul>
     </nav>
+
+    <!--HVAD ER TE? PICTURE-->
+    <picture></picture>
+
+    <!--HVAD ER TE? CONTENT-->
+    <article class="hvaderteArticle">
+    <h1 class="hvaderteh1">GRUNDFORSTÅELSE AF <b>TE</b></h1>
+        Te er fremstillet ved at brygge tørrede blade, skud eller andre dele af den kinesiske teplante <i>Camellia sinensis</i>. <br><br> 
+        Tebladene gennemgår en række bearbejdningsprocesser, hvilket omfatter visning, rulning, oxidation og tørring. 
+        Processerne varierer afhængigt af den ønskede tesort og resulterer i forskellige smage og egenskaber.
+        <br><br>
+        Te er en gammel drik med meget historie, og har været værdsat i århundreder for sine potentielle sundhedsmæssige fordele, 
+        herunder antioxidantegenskaber og evnen til at fremme mental velvære. <br><br>
+        Du kan læse mere om téens forskellige egenskaber <a href="formaal.html" class="herLink">her</a>
+    </article>
 
 </body>
 </html>

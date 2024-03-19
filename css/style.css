@@ -6,12 +6,13 @@ html, body {
     height: 100%;
     margin: 0%;
     padding: 0%;
-    background: linear-gradient(#fff, #fff, #c3c1c1);
-    background-repeat: no-repeat;
+    /*background: linear-gradient(#fff, #fff, #c3c1c1);
+    background-repeat: no-repeat;*/
 }
 
 /*-----NAVIGATION STYLE-----*/
 .navigation {
+    margin: 0;
     text-align: center;
 }
 
@@ -37,7 +38,7 @@ nav li a:hover {
     opacity: 1;
 }
 
-/*DROPDOWN NAVIGATION*/
+/*-----DROPDOWN NAVIGATION-----*/
 .dropdown {
     position: relative;
     display: inline-block;
@@ -73,6 +74,10 @@ nav li a:hover {
 }
 
 /*-----FORSIDE STYLE-----*/
+.indexPhoto {
+    width: 100px;
+}
+
 .homepageArticle{
     margin: 10%;
     text-align: center;
@@ -92,6 +97,62 @@ nav li a:hover {
     font-size: 1.5em;
 }
 
+article p {
+    color: #51443d;
+}
+
 /*-----HVAD ER TE? STYLE-----*/
+
+.hvaderteArticle {
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    color: #51443d;
+}
+
+.hvaderteh1 {
+    font-size: 2em;
+    font-weight: 350;
+    margin-bottom: 10px;
+}
+
+.herLink {
+    text-decoration: none;
+    font-weight: 800;
+    color: #51443d;
+}
+
 /*-----TESORTER STYLE-----*/
+body {
+    color: #51443d;
+}
+
+.tesorterArticles {
+    margin-left: 17%;
+    margin-right: 17%;
+}
+
+.tesorterArticles h1 {
+    font-weight: 350;
+}
+
 /*-----DIT FORMAAL STYLE-----*/
+body {
+    color: #51443d;
+}
+
+.formaalArticle {
+    margin-left: 17%;
+    margin-right: 17%;
+}
+
+.formaalArticle a {
+    text-decoration: none;
+    color: #51443d;
+    font-weight: bold;
+}
+
+.formaalArticle ul {
+    list-style-type: none;
+}
+
