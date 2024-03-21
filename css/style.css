@@ -43,6 +43,7 @@ nav li a:hover {
 .dropdown {
     position: relative;
     display: inline-block;
+    z-index: 1;
 }
 
 .dropbtn {
@@ -117,11 +118,11 @@ article p {
 }
 
 /*-----HVAD ER TE? STYLE-----*/
-
 .hvaderteArticle {
     text-align: center;
-    padding-left: 25%;
-    padding-right: 25%;
+    margin-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
     color: #51443d;
 }
 
@@ -129,6 +130,10 @@ article p {
     font-size: 2em;
     font-weight: 350;
     margin-bottom: 10px;
+}
+
+.hvaderteContent {
+    padding-top: 5%;
 }
 
 .herLink {
@@ -145,6 +150,7 @@ body {
 .tesorterArticles {
     margin-left: 20%;
     margin-right: 20%;
+    text-align: center;
 }
 
 .tesorterArticles h1 {
@@ -153,6 +159,7 @@ body {
     padding-top: 5%;
 }
 
+/*------IMAGES------*/
 #sortTeImg {
     width: 30%;
     float: left;
@@ -177,6 +184,20 @@ body {
     margin-left: 10px;
 }
 
+#hvadErTeImg {
+    width: 50%;
+    margin-top: 20px;
+    float: right;
+}
+
+#topFormaalImg {
+    width: 100%;
+}
+
+#middleFormaalImg {
+    width: 100%;
+}
+
 
 /*-----DIT FORMAAL STYLE-----*/
 body {
@@ -184,8 +205,9 @@ body {
 }
 
 .formaalArticle {
-    margin-left: 17%;
-    margin-right: 17%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
 }
 
 .formaalArticle a {
@@ -198,3 +220,8 @@ body {
     list-style-type: none;
 }
 
+hr {
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: 1px solid #a3b7a3;
+}
