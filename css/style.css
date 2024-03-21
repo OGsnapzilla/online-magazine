@@ -153,7 +153,7 @@ body {
     text-align: center;
 }
 
-.tesorterArticles h1 {
+.tesorterArticles h2 {
     font-weight: 350;
     font-size: 2.5em;
     padding-top: 5%;
@@ -205,8 +205,8 @@ body {
 }
 
 .formaalArticle {
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 30%;
+    margin-right: 30%;
     text-align: center;
 }
 
@@ -216,12 +216,17 @@ body {
     font-weight: bold;
 }
 
-.formaalArticle ul {
-    list-style-type: none;
+.formaalArticle h2 {
+    font-weight: 350;
+    font-size: 2.5em;
+}
+
+.formaalArticle a:hover {
+    background-color: #ebf5eb;
 }
 
 hr {
-    margin-left: 20%;
-    margin-right: 20%;
-    border-top: 1px solid #a3b7a3;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-top: 1px solid #e3ece3;
 }
